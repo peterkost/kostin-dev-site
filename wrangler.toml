@@ -1,0 +1,7 @@
+name = "kostin-dev"
+main = "./dist/_worker.js/index.js"
+compatibility_date = "2025-08-10"
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"
