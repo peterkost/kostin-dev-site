@@ -1,2 +1,18 @@
-.# MacOS 
+# build output
+dist/
+.wrangler/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+
+# environment variables
+.env
+.dev.vars
+
+# macOS-specific files
 .DS_Store
