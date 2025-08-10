@@ -1,35 +1,8 @@
 ---
-
+import CenteredLayout from '../layouts/CenteredLayout.astro';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-    <title>Kostin.Dev</title>
-    <style>
-      html body {
-        margin: 0px;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
-
-      div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-    </style>
-	</head>
-    <body>
-    <div>
-      <p>KOSTIN.DEV</p>
-      <p>WIP</p>
-    </div>
-  </body>
-</html>
+<CenteredLayout title="kostin.life", description="Assorted ramblings">
+  <div class="w-fit text-center">
+    <p class="pb-4">KOSTIN.LIFE</p>
+    <a class="link" href="blog/on-developer-experience">On Developer Experience</a><br>
+</CenteredLayout>

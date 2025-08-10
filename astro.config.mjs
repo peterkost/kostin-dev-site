@@ -5,6 +5,9 @@ import cloudflare from "@astrojs/cloudflare";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
+  redirects: {
+    "/on-devex": "/blog/on-developer-experience",
+  },
   adapter: cloudflare({
     platformProxy: {
       enabled: true,
@@ -16,4 +19,3 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 });
-
